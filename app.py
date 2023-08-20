@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from pymongo import MongoClient
 import openai
+import config
 
 app = Flask(__name__)
 
